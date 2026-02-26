@@ -20,7 +20,7 @@ Developed as part of a **Google Cloud – Generative AI Internship**, this proje
 
 ---
 
-# 📌 Problem Statement
+## 📌 Problem Statement
 
 Modern vehicle buyers often face challenges in:
 
@@ -34,7 +34,7 @@ There is a need for a structured, AI-driven automotive intelligence assistant th
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
 - Implement image-based vehicle recognition using Gemini multimodal capabilities  
 - Generate structured automotive insights  
@@ -44,9 +44,9 @@ There is a need for a structured, AI-driven automotive intelligence assistant th
 
 ---
 
-# 🔍 Core Modules
+## 🔍 Core Modules
 
-## 1️⃣ Image-Based Vehicle Analysis Module
+### 1️⃣ Image-Based Vehicle Analysis Module
 
 Users upload a vehicle image and receive structured insights including:
 
@@ -65,7 +65,7 @@ Structured prompt engineering ensures consistent formatting and professional out
 
 ---
 
-## 2️⃣ Automotive AI Advisory Assistant
+### 2️⃣ Automotive AI Advisory Assistant
 
 The text-based assistant supports:
 
@@ -79,7 +79,7 @@ The assistant is **domain-restricted**, ensuring it only responds to automotive-
 
 ---
 
-# ⚙️ Why Gemini 2.5 Flash?
+## ⚙️ Why Gemini 2.5 Flash?
 
 Gemini 2.5 Flash was selected due to:
 
@@ -91,9 +91,9 @@ Gemini 2.5 Flash was selected due to:
 
 ---
 
-# 🏗 System Architecture
+## 🏗 System Architecture
 
-```
+```text
 User Input (Image / Text)
         ↓
 Streamlit Frontend
@@ -109,18 +109,18 @@ Formatted Response Display
 
 ---
 
-# 🛠 Technology Stack
+## 🛠 Technology Stack
 
 - Python  
 - Streamlit  
 - Google Gemini 2.5 Flash API  
 - Prompt Engineering  
 - Multimodal AI  
-- dotenv (Secure API Management)  
+- python-dotenv (Secure API Management)  
 
 ---
 
-# 🧪 Testing & Validation Strategy
+## 🧪 Testing & Validation Strategy
 
 The system was validated using:
 
@@ -133,11 +133,11 @@ The system was validated using:
 
 ---
 
-# 📸 Application Screenshots
+## 📸 Application Screenshots
 
-*(Add your actual screenshots inside the `assets/` folder and update names accordingly)*
+*(Add your screenshots inside the `assets/` folder)*
 
-```
+```text
 assets/
 │
 ├── home.png
@@ -145,7 +145,7 @@ assets/
 └── chatbot.png
 ```
 
-Example:
+Example usage in README:
 
 ```markdown
 ![Home Screen](assets/home.png)
@@ -155,22 +155,23 @@ Example:
 
 ---
 
-# 🚀 Live Deployment
+## 🚀 Live Deployment
 
 🔗 **Streamlit App:**  
-https://autosage-app-gp4curmwapppp2edzadnwdta.streamlit.app/ 
+https://autosage-app-gp4curmwapppp2edzadnwdta.streamlit.app/
 
 ---
 
-# 🎥 Project Demonstration
+## 🎥 Project Demonstration
 
 🔗 **Demo Video:**  
 https://drive.google.com/file/d/1rrwIvtJkw4qBJb4GAjfqua2YbGsxRw4e/view?usp=drive_link
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
+```text
 autosage-app/
 │
 ├── app.py
@@ -178,34 +179,38 @@ autosage-app/
 ├── README.md
 ├── .env
 │
-├── images/                
+├── images/
 │   ├── image1.jpg
 │   ├── image2.jpg
 │   ├── image3.jpg
 │   └── ...
 │
+├── assets/
+│   ├── home.png
+│   ├── image_analysis.png
+│   └── chatbot.png
 │
 └── docs/
     └── AutoSage_Project_Report.pdf
-
+```
 ---
 
-# ⚙️ Installation Guide
+## ⚙️ Installation Guide
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/eedaratejaswini-07/autosage-app.git
 cd autosage-app
 ```
 
-## 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 3️⃣ Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -213,7 +218,9 @@ Create a `.env` file in the root directory:
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-## 4️⃣ Run Application
+⚠️ Make sure `.env` is added to `.gitignore`.
+
+### 4️⃣ Run Application
 
 ```bash
 streamlit run app.py
@@ -221,7 +228,7 @@ streamlit run app.py
 
 ---
 
-# ⚠️ Limitations
+## ⚠️ Limitations
 
 - Dependent on Gemini API quota limits  
 - AI-based estimations may vary slightly  
@@ -230,7 +237,7 @@ streamlit run app.py
 
 ---
 
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - VIN-based vehicle identification  
 - Integration with real-time automotive databases  
@@ -240,7 +247,7 @@ streamlit run app.py
 
 ---
 
-# 📘 Documentation
+## 📘 Documentation
 
 Detailed technical documentation available in:
 
@@ -250,16 +257,17 @@ docs/AutoSage_Project_Report.pdf
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developers
 
-**Eedara Tejaswini** 
-**Prasanna Kumar Raparla**
-**Sai Kumar Ramoju**
-**Sandeep Peruri**
+**Eedara Tejaswini**  
+**Prasanna Kumar Raparla**  
+**Sai Kumar Ramoju**  
+**Sandeep Peruri**  
+
 Google Cloud – Generative AI Internship  
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project is developed for educational and internship purposes only.
