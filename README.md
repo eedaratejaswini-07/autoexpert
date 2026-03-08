@@ -93,7 +93,7 @@ Gemini 2.5 Flash was selected due to:
 
 ## 🏗 System Architecture
 
-```text
+```
 User Input (Image / Text)
         ↓
 Streamlit Frontend
@@ -136,36 +136,35 @@ The system was validated using:
 ## 📸 Application Screenshots
 
 ### 🏠 Home Interface
-![Home Screen](assets/home.png)
+![Home Screen](Assets_for_ReadmeFile/home.png)
 
 ---
 
 ## 🚗 Four-Wheeler Analysis
 
 ### 📷 Analysis Output – Part 1
-![Four Wheeler 1](assets/four_Wheeler_image_analysis/image1.jpg)
+![Four Wheeler 1](Assets_for_ReadmeFile/four_Wheeler_image_analysis/image1.jpg)
 
 ### 📊 Analysis Output – Part 2
-![Four Wheeler 2](assets/four_Wheeler_image_analysis/image2.jpg)
+![Four Wheeler 2](Assets_for_ReadmeFile/four_Wheeler_image_analysis/image2.jpg)
 
 ### 📈 Analysis Output – Part 3
-![Four Wheeler 3](assets/four_Wheeler_image_analysis/image3.jpg)
+![Four Wheeler 3](Assets_for_ReadmeFile/four_Wheeler_image_analysis/image3.jpg)
 
 ---
 
 ## 🏍 Two-Wheeler Analysis
 
 ### 📷 Analysis Output – Part 1
-![Two Wheeler 1](assets/two_wheeler_image_analysis/image1.jpg)
+![Two Wheeler 1](Assets_for_ReadmeFile/two_wheeler_image_analysis/image1.jpg)
 
 ### 📊 Analysis Output – Part 2
-![Two Wheeler 2](assets/two_wheeler_image_analysis/image2.jpg)
-
+![Two Wheeler 2](Assets_for_ReadmeFile/two_wheeler_image_analysis/image2.jpg)
 
 ---
 
 ## 🤖 Automotive AI Assistant
-![Chatbot](assets/chatbot.png)
+![Chatbot](Assets_for_ReadmeFile/chatbot.png)
 
 ---
 
@@ -185,80 +184,120 @@ https://drive.google.com/file/d/1rrwIvtJkw4qBJb4GAjfqua2YbGsxRw4e/view?usp=drive
 
 ## 📂 Project Structure
 
-```text
-autoexpert/
+```
+AUTOEXPERT
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── .env                      # Environment variables (not pushed to GitHub)
+├── Project_Files
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── images
+│       ├── image1.png
+│       ├── image2.png
+│       ├── image3.jpeg
+│       ├── image4.png
+│       ├── image5.png
+│       └── image6.png
 │
-├── images/                   # Test images used for validation
-│   ├── image1.png
-│   ├── image2.png
-│   ├── image3.png
-│   └── ...
-│
-├── assets/                   # Screenshots for README
-│   │
+├── Assets_for_ReadmeFile
 │   ├── home.png
 │   ├── chatbot.png
-│   │
-│   ├── four_wheeler_analysis/
+│   ├── four_Wheeler_image_analysis
 │   │   ├── image1.jpg
 │   │   ├── image2.jpg
 │   │   └── image3.jpg
 │   │
-│   └── two_wheeler_analysis/
+│   └── two_wheeler_image_analysis
 │       ├── image1.jpg
 │       └── image2.jpg
 │
-└── docs/
-    └── AutoSage_Project_Report.pdf
+├── Project_Template
+│   ├── 1. Ideation Phase
+│   ├── 2. Requirement Analysis
+│   ├── 3. Project Design Phase
+│   ├── 4. Project Planning Phase
+│   ├── 5. Project Development Phase
+│   ├── 6. Project Documentation
+│   └── 7. Project Demonstration
+│
+├── Video Demo
+│
+├── README.md
+└── .gitignore
 ```
+
 ---
 
 ## ⚙️ Installation Guide
 
-### 1️⃣ Clone Repository
+Follow the steps below to run the AutoSage application locally.
+
+---
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/eedaratejaswini-07/autoexpert.git
 cd autoexpert
 ```
 
-### 2️⃣ Install Dependencies
+---
+
+### 2️⃣ Navigate to Project Directory
+
+```bash
+cd Project_Files
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+Install all required Python libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Configure Environment Variables
+---
 
-Create a `.env` file in the root directory:
+### 4️⃣ Configure Environment Variables
 
-```env
+Create a `.env` file inside the **Project_Files** directory.
+
+```
+Project_Files/.env
+```
+
+Add your **Google Gemini API key** inside the file:
+
+```
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-⚠️ Make sure `.env` is added to `.gitignore`.
+⚠️ Ensure `.env` is listed in `.gitignore` to keep the API key secure.
 
-### 4️⃣ Run Application
+---
+
+### 5️⃣ Run the Application
+
+Start the Streamlit web application:
 
 ```bash
 streamlit run app.py
 ```
 
+After running the command, the application will automatically open in your browser.
+
+If it does not open automatically, visit:
+
+```
+http://localhost:8501
+```
+
 ---
 
-## ⚠️ Limitations
 
-- Dependent on Gemini API quota limits  
-- AI-based estimations may vary slightly  
-- Requires stable internet connectivity  
-- Image recognition accuracy depends on clarity and angle  
-
----
 
 ## 🔮 Future Enhancements
 
@@ -272,10 +311,10 @@ streamlit run app.py
 
 ## 📘 Documentation
 
-Detailed technical documentation available in:
+Complete project documentation available in:
 
 ```
-docs/AutoSage_Project_Report.pdf
+Project_Template/6. Project Documentation/Final_Report.pdf
 ```
 
 ---
@@ -293,4 +332,4 @@ Google Cloud – Generative AI Internship
 
 ## 📜 License
 
-This project is developed for educational and internship purposes only.
+This project is developed for **educational and internship purposes only**.
