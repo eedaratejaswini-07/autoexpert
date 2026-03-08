@@ -296,16 +296,23 @@ http://localhost:8501
 ```
 
 ---
+## ⚠️ Limitations
 
+- Accuracy depends on image quality and camera angle.  
+- Vehicle details are AI-generated and may contain estimated values.  
+- Requires a stable internet connection to access the Gemini API.  
+- Limited by API usage quotas.  
+- Assistant responses are restricted to automotive-related queries only.
 
+---
 
 ## 🔮 Future Enhancements
 
-- VIN-based vehicle identification  
-- Integration with real-time automotive databases  
-- Voice-enabled assistant  
-- Personalized AI recommendations  
-- Cloud scalability & containerization  
+- Integrate real-time automotive databases for accurate specifications and pricing.  
+- Add VIN-based vehicle identification.  
+- Support voice-based interaction.  
+- Improve vehicle recognition accuracy using advanced models.  
+- Develop a mobile application for wider accessibility.
 
 ---
 
