@@ -20,7 +20,7 @@ try:
 except Exception:
     # Fallback to local .env
     env_path = Path(__file__).parent / ".env"
-    load_dotenv()
+    load_dotenv(env_path)
     api_key = os.getenv("GOOGLE_API_KEY")
 
 # Configure Gemini API
